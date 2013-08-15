@@ -1,0 +1,24 @@
+{
+  "name": "bryan-faceplate",
+  "version": "0.0.1",
+  "description": "Node.js wrapper for facebook auth/api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/bryanwood/bryan-faceplate"
+  },
+  "keywords": [
+    "facebook"
+  ],
+  "author": "bryan",
+  "license": "MIT",
+  "dependencies": {
+    "b64url": "~1.0.3",
+    "crypto": "0.0.3",
+    "querystring": "~0.2.0",
+    "request": "~2.26.0"
+  }
+}
