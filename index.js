@@ -123,7 +123,7 @@ var FaceplateSession = function(plate, signed_request) {
         var req = request('https://graph.facebook.com' + path,
           { qs: params }, function(err, resp, body){
             if(err) return cb(err);
-            cb(null, body);
+            cb(null, JSON.parse(body));
           });
     } catch (err) {
       cb(err);
